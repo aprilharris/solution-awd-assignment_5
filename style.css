@@ -3,9 +3,30 @@ html {
 }
 
 header {
+  padding: 2rem;
   text-align: center;
+}
+
+header p {
+  font-size: 1.5rem;
 }
 
 
 
+div#puppies img {
+  
+  height: 200px;
+  padding: 1rem;
+}
 
+div#avengers img {
+
+width: 200px;
+  
+}
+
+
+div#avengers > h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
