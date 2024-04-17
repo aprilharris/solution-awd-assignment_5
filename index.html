@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Assignment 5: For Loops</title>
-  <!--Jquery -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> 
-      <!--       BOOTSTRAP -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <!--CUSTOM CSS-->
-        <link href="style.css" rel="stylesheet" type="text/css" />
-      
-    </head>
-    <body>
-      <header class="container text-center">
-            <h1>Attention: America On Tech Students!</h1>
-            <p>The great villan, Thanos is holding a bunch of puppies hostage.</p>
-            
-            <p>You must use a <b>for loop</b> and an <b>array</b> to assemble the Avengers and put an end to his evil plan.</p> 
-           <div class="puppies">
-             </div>
-        <div id="thanosSection">
-          <img src="img/thanos.jpg" alt="Scary photo of Marvel villain, Thanos" height="250" />
-        </div>
-           <button class="btn btn-primary btn-lg my-5" id="assembleButton" onclick="fetchAvengers()">Avengers...Assemble!</button>
-      </header>
-   <main class="container text-center">
-   
+<head>
+	<title>Assignment 5: For Loops</title><!--Jquery -->
 
-
-            <div class="avengers"></div>
-          
-                   
-   </main>    
-<!--       CUSTOM SCRIPT -->
-        <script src="script.js"></script>
-<!--       BOOTSTRAP JS -->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    </body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+	</script><!--       BOOTSTRAP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"><!--CUSTOM CSS-->
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="container text-center p-5">
+		<h1>Attention: America On Tech Students!</h1>
+		<p>The great villain, Thanos is holding a bunch of puppies hostage.<br/>
+	Use your knowledge of <b>for loops</b> and <b>arrays</b> to summon the Avengers and put an end to his evil plan.</p>
+<!--     PUPPIES PLACEHOLDER -->
+		<div class="puppies"></div>
+		<div id="thanosSection">
+      <img src="img/thanos.jpg" alt="Scary photo of Marvel villain, Thanos" height="250">
+    </div>
+<button class="btn btn-primary btn-lg my-5" id="assembleButton" onclick="fetchAvengers()">Avengers...Assemble!</button>
+	</header>
+	<main class="container text-center">
+    <!-- AVENGERS PLACEHOLDER -->
+ 
+		<div class="avengers"> </div>
+  
+	</main>
+  <!--       CUSTOM SCRIPT -->
+	<script src="script.js">
+	</script> <!--       BOOTSTRAP JS -->
+	 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+	</script>
+</body>
 </html>
