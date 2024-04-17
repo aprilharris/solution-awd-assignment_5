@@ -8,9 +8,9 @@ let puppies = [
   "img/puppy-3.jpg",
 ];
 
-$("#puppies").append(`<img src=${puppies[0]} >`);
-$("#puppies").append(`<img src=${puppies[1]} >`);
-$("#puppies").append(`<img src=${puppies[2]} >`);
+$(".puppies").append(`<img src=${puppies[0]} >`);
+$(".puppies").append(`<img src=${puppies[1]} >`);
+$(".puppies").append(`<img src=${puppies[2]} >`);
 
 // Challenge 2
 let avengerPics = [
