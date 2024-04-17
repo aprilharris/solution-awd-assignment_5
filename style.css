@@ -13,20 +13,20 @@ header p {
 
 
 
-div#puppies img {
+.puppies img {
   
-  height: 200px;
+  
   padding: 1rem;
 }
 
-div#avengers img {
+.avengers img {
 
 width: 200px;
   
 }
 
 
-div#avengers > h2 {
+.avengers > h2 {
   font-weight: bold;
   text-transform: uppercase;
 }
