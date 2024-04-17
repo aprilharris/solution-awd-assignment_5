@@ -1,9 +1,12 @@
 // Challenge 1
 let puppies = [
-    "img/p1.jpg",
-    "img/p2.jpg",
-    "img/p3.jpg"
-  ];
+  //0
+  "img/puppy-1.jpg",
+  //1
+  "img/puppy-2.jpg",
+  //2
+  "img/puppy-3.jpg",
+];
 
 $("#puppies").append(`<img src=${puppies[0]} >`);
 $("#puppies").append(`<img src=${puppies[1]} >`);
