@@ -12,21 +12,7 @@ header p {
 }
 
 
-
 .puppies img {
-  
-  
+  width: 200px;
   padding: 1rem;
-}
-
-.avengers img {
-
-width: 200px;
-  
-}
-
-
-.avengers > h2 {
-  font-weight: bold;
-  text-transform: uppercase;
 }
