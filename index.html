@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Assignment 5: For Loops</title><!--Jquery -->
-
+	<title>Assignment 5: For Loops</title>
+<!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <!-- JQUERY -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
 	</script><!--       BOOTSTRAP -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"><!--CUSTOM CSS-->
-	<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+  html {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  header p {
+    font-size: 1.5rem;
+  }
+
+
+  .puppies img {
+    width: 200px;
+    padding: 1rem;
+  }
+
+  .bangers, .avengers h3 {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+</style>
 </head>
 <body>
 	<header class="container text-center p-5">
@@ -18,7 +48,7 @@
 		<div class="thanos">
       <img src="img/thanos.jpg" alt="Scary photo of Marvel villain, Thanos" height="250">
     </div>
-<button class="btn btn-primary btn-lg my-5" id="assembleButton" onclick="fetchAvengers()">Avengers...Assemble!</button>
+<button class="btn btn-primary btn-lg mt-3 mb-3 bangers" id="assembleButton" onclick="fetchAvengers()">Avengers...Assemble!</button>
 	</header>
 	<main class="container text-center">
     <!-- AVENGERS PLACEHOLDER -->
