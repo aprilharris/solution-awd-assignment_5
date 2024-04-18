@@ -9,9 +9,9 @@ let puppies = [
   "img/puppy-3.jpg",
 ];
 
-$("div.puppies").append(`<img src=${puppies[0]} height="100" />`);
-$("div.puppies").append(`<img src=${puppies[1]} height="100" />`);
-$("div.puppies").append(`<img src=${puppies[2]} height="100" />`);
+$("div.puppies").append(`<img src=${puppies[0]} height="200" />`);
+$("div.puppies").append(`<img src=${puppies[1]} height="200" />`);
+$("div.puppies").append(`<img src=${puppies[2]} height="200" />`);
 
 
 
